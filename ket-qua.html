@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Ponds Acne Clear - Your awesome title - layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendor/bootstrap-3.3.7/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/assets/main-61935ebff1db6aadc07875869a023870822e9d46ce369a2605e5dd9127ec3ea3.css" integrity="sha384-zVuYgeZivjMZMXuOqFTyDkhrpfA1KK7aMFApGmGzU5Mjjw1BbDeYt55OM3IrgFze" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+<script src="/vendor/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/main-d109a46123bbf4bd35d37581e077fdac34bc1ddc8038be14521f68fbeae53108.js" integrity="sha384-u0NBzXCruVHgw9vZAlseqiz+wxHAq/C475BzTGmyEijqI+CDXg4rpk1K2d+HRWp+" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="get-name">
+    <form onsubmit="return false;" class="validation">
+        <label>Nhập tên để chơi game : <input required type="text" name="name" id="userName"> </label>
+        <button type="button" class="btn-get-name">Nhập</button>
+    </form>
+</div>
+        <div class="wrapper">
+            <h1 style="font-size: 30px;text-align: center;margin-top: 15%;" >Chúc mừng <span style="color:red" class="username" ></span> đã hoàn thành với thời gian là : <span style="color:red" class="last-time-play" ></span> </h1>
+<div class="top5">
+    <table>
+        <legend>~Top 5~</legend>
+        <tr>
+            <th width="70px">1</th>
+            <td width="217px" id="rank1"></td>
+            <td width="218px" id="score1"></td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td id="rank2"></td>
+            <td id="score2"></td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td id="rank3"></td>
+            <td id="score3"></td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td id="rank4"></td>
+            <td id="score4"></td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td id="rank5"></td>
+            <td id="score5"></td>
+        </tr>
+    </table>
+    <div style="float:left">
+        <a onclick="clearRanking()" class="btn-reset">Reset</a>
+    </div>
+    <div style="float:right">
+        <a onclick="rePlay()" class="btn-replay">Replay</a>
+    </div>
+</div>
+        </div>
+        <div class="popup_overlay" style="display: none">
+    <div class="popup">
+        Bạn đã hoàn thành câu hỏi.
+        <a id="complete" >Tiếp tục</a>
+    </div>
+</div>
+    </body>
+</html>

@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <title>Omo bột giặt mới - Your awesome title - layout</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="/vendor/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="/vendor/bootstrap-3.3.7/css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.2.0/css/font-awesome.min.css"/>
-    <link type="text/css" rel="stylesheet" href="/assets/main-d1486d893cd4a041dff19008f9f5a676eb490699e9081e9e61ed4bf6cafc203a.css" integrity="sha384-1JNdj+t7mK1d6CI8sQJgMj3+JyByuoNE4DS3fpnS5ao7sQ/OqgVpc4u8ehEhiivg" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/assets/main-61935ebff1db6aadc07875869a023870822e9d46ce369a2605e5dd9127ec3ea3.css" integrity="sha384-zVuYgeZivjMZMXuOqFTyDkhrpfA1KK7aMFApGmGzU5Mjjw1BbDeYt55OM3IrgFze" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
 <script src="/vendor/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/assets/main-56b5b265a60d0cf8d074773ed427f32dfbc61392398ee790dd0870b385da50c3.js" integrity="sha384-YcxvQ+MbD7mZNv6buXa/EO36PDJ19Tpa1qOZJFFozTlyXXDdt3z+zM24tPWUCoBK" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/assets/main-d109a46123bbf4bd35d37581e077fdac34bc1ddc8038be14521f68fbeae53108.js" integrity="sha384-u0NBzXCruVHgw9vZAlseqiz+wxHAq/C475BzTGmyEijqI+CDXg4rpk1K2d+HRWp+" crossorigin="anonymous"></script>
 </head>
-<body>
-<div class="get-name">
+    <body>
+        <div class="get-name">
     <form onsubmit="return false;" class="validation">
-        <label>Nhập tên để chơi game : <input required type="text" name="name"> </label>
+        <label>Nhập tên để chơi game : <input required type="text" name="name" id="userName"> </label>
         <button type="button" class="btn-get-name">Nhập</button>
     </form>
 </div>
-<div class="wrapper">
-    <iframe class="iframe-knorr" width="100%" height="100%" src="https://www.youtube.com/embed/NMRwBDaCBYY?playlist=NMRwBDaCBYY&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+        <div class="wrapper">
+            <iframe class="iframe-knorr" width="100%" height="100%" src="https://www.youtube.com/embed/NMRwBDaCBYY?playlist=NMRwBDaCBYY&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
 <a href="omo4" class="btn-next">
     <img src="/images/icon-next.png" alt="">
 </a>
+        </div>
+        <div class="popup_overlay" style="display: none">
+    <div class="popup">
+        Bạn đã hoàn thành câu hỏi.
+        <a id="complete" >Tiếp tục</a>
+    </div>
 </div>
-</body>
+    </body>
 </html>
